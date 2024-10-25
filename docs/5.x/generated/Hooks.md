@@ -991,7 +991,7 @@ Callback Signature:
 
 ### Controller.triggerAdminNotifications
 
-*Defined in [Piwik/Plugin/ControllerAdmin](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Plugin/ControllerAdmin.php) in line [399](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Plugin/ControllerAdmin.php#L399)*
+*Defined in [Piwik/Plugin/ControllerAdmin](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Plugin/ControllerAdmin.php) in line [397](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Plugin/ControllerAdmin.php#L397)*
 
 Posted when rendering an admin page and notifications about any warnings or errors should be triggered. You can use it for example when you have a plugin that needs to be configured in order to work and the
 plugin has not been configured yet. It can be also used to cancel / remove other notifications by calling
@@ -1038,7 +1038,7 @@ Callback Signature:
 
 ### Core.configFileSanityCheckFailed
 
-*Defined in [Piwik/Config](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Config.php) in line [494](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Config.php#L494)*
+*Defined in [Piwik/Config](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Config.php) in line [504](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Config.php#L504)*
 
 Triggered when the INI config file was not written correctly with the expected content.
 
@@ -1713,6 +1713,9 @@ Callback Signature:
 - [Login.authenticate.successful](#loginauthenticatesuccessful)
 - [Login.authenticate.successful](#loginauthenticatesuccessful)
 - [Login.logout](#loginlogout)
+- [Login.resetPassword.cancelled](#loginresetpasswordcancelled)
+- [Login.resetPassword.confirmed](#loginresetpasswordconfirmed)
+- [Login.resetPassword.initiated](#loginresetpasswordinitiated)
 - [Login.userRequiresPasswordConfirmation](#loginuserrequirespasswordconfirmation)
 
 ### Login.authenticate
@@ -1793,12 +1796,48 @@ Usages:
 
 ### Login.logout
 
-*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [535](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L535)*
+*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [578](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L578)*
 
 
 
 Callback Signature:
 <pre><code>function(Piwik::getCurrentUserLogin()]</code></pre>
+
+
+### Login.resetPassword.cancelled
+
+*Defined in [Piwik/Plugins/Login/PasswordResetter](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php) in line [188](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php#L188)*
+
+Triggered after a user cancelled a password reset process.
+
+Callback Signature:
+<pre><code>function($userfunction(&#039;login&#039;]]</code></pre>
+
+- string `$userLogin` The user's login.
+
+
+### Login.resetPassword.confirmed
+
+*Defined in [Piwik/Plugins/Login/PasswordResetter](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php) in line [306](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php#L306)*
+
+Triggered after a user confirmed/completed a password reset process.
+
+Callback Signature:
+<pre><code>function($login]</code></pre>
+
+- string `$userLogin` The user's login.
+
+
+### Login.resetPassword.initiated
+
+*Defined in [Piwik/Plugins/Login/PasswordResetter](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php) in line [246](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/PasswordResetter.php#L246)*
+
+Triggered after a user initiated a password reset process.
+
+Callback Signature:
+<pre><code>function($login]</code></pre>
+
+- string `$userLogin` The user's login.
 
 
 ### Login.userRequiresPasswordConfirmation
@@ -3597,6 +3636,7 @@ Callback Signature:
 - [Template.jsGlobalVariables](#templatejsglobalvariables)
 - [Template.jsGlobalVariables](#templatejsglobalvariables)
 - [Template.jsGlobalVariables](#templatejsglobalvariables)
+- [Template.loginCancelResetPasswordContent](#templatelogincancelresetpasswordcontent)
 - [Template.siteWithoutDataTab. . $obj::getId() . .content](#templatesitewithoutdatatabobjgetidcontent)
 - [Template.siteWithoutDataTab. . $obj::getId() . .others](#templatesitewithoutdatatabobjgetidothers)
 
@@ -3722,6 +3762,18 @@ Callback Signature:
 Usages:
 
 [Plugin::getJsGlobalVariables](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/API/API.php#L903), [AnonymousPiwikUsageMeasurement::addMatomoClientTracking](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/AnonymousPiwikUsageMeasurement/AnonymousPiwikUsageMeasurement.php#L107), [CoreAdminHome::addJsGlobalVariables](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/CoreAdminHome/CoreAdminHome.php#L83), [LanguagesManager::jsGlobalVariables](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/LanguagesManager/LanguagesManager.php#L88), [Live::addJsGlobalVariables](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Live/Live.php#L46), [Transitions::addJsGlobalVariables](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Transitions/Transitions.php#L69)
+
+
+### Template.loginCancelResetPasswordContent
+
+*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [478](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L478)*
+
+Overwrite the content displayed on the "reset password process cancelled page". Will display default content if no event content returned.
+
+Callback Signature:
+<pre><code>function(&amp;$cancelResetPasswordContent]</code></pre>
+
+- string `&$cancelResetPasswordContent` The content to render.
 
 
 ### Template.siteWithoutDataTab. . $obj::getId() . .content
@@ -4304,7 +4356,7 @@ Callback Signature:
 
 ### UsersManager.inviteUser.accepted
 
-*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [647](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L647)*
+*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [690](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L690)*
 
 Triggered after a user accepted an invite
 
@@ -4320,7 +4372,7 @@ Callback Signature:
 
 ### UsersManager.inviteUser.declined
 
-*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [717](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L717)*
+*Defined in [Piwik/Plugins/Login/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php) in line [760](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Controller.php#L760)*
 
 Triggered after a user accepted an invite
 
