@@ -1722,6 +1722,8 @@ Callback Signature:
 - [Login.authenticate.processSuccessfulSession.end](#loginauthenticateprocesssuccessfulsessionend)
 - [Login.authenticate.processSuccessfulSession.end](#loginauthenticateprocesssuccessfulsessionend)
 - [Login.authenticate.processSuccessfulSession.end](#loginauthenticateprocesssuccessfulsessionend)
+- [Login.authenticate.processSuccessfulSession.end](#loginauthenticateprocesssuccessfulsessionend)
+- [Login.authenticate.processSuccessfulSession.end](#loginauthenticateprocesssuccessfulsessionend)
 - [Login.authenticate.successful](#loginauthenticatesuccessful)
 - [Login.authenticate.successful](#loginauthenticatesuccessful)
 - [Login.logout](#loginlogout)
@@ -1780,7 +1782,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [72](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L72)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [73](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L73)*
 
 
 
@@ -1794,7 +1796,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [80](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L80)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [81](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L81)*
 
 
 
@@ -1808,7 +1810,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [85](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L85)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [86](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L86)*
 
 
 
@@ -1822,7 +1824,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [93](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L93)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [94](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L94)*
 
 
 
@@ -1836,7 +1838,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [98](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L98)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [99](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L99)*
 
 
 
@@ -1850,7 +1852,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [106](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L106)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [107](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L107)*
 
 
 
@@ -1864,7 +1866,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [111](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L111)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [112](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L112)*
 
 
 
@@ -1878,7 +1880,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [116](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L116)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [117](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L117)*
 
 
 
@@ -1892,7 +1894,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [126](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L126)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [127](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L127)*
 
 
 
@@ -1906,7 +1908,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [131](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L131)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [132](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L132)*
 
 
 
@@ -1920,7 +1922,7 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [141](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L141)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [142](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L142)*
 
 
 
@@ -1934,7 +1936,35 @@ Usages:
 
 ### Login.authenticate.processSuccessfulSession.end
 
-*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [146](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L146)*
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [147](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L147)*
+
+
+
+Callback Signature:
+<pre><code>function(self::LOGIN]</code></pre>
+
+Usages:
+
+[Login::checkLoginFromAnotherCountry](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Login.php#L150), [TwoFactorAuth::onSuccessfulSession](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/TwoFactorAuth/TwoFactorAuth.php#L135)
+
+
+### Login.authenticate.processSuccessfulSession.end
+
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [157](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L157)*
+
+
+
+Callback Signature:
+<pre><code>function(self::LOGIN]</code></pre>
+
+Usages:
+
+[Login::checkLoginFromAnotherCountry](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/Login.php#L150), [TwoFactorAuth::onSuccessfulSession](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/TwoFactorAuth/TwoFactorAuth.php#L135)
+
+
+### Login.authenticate.processSuccessfulSession.end
+
+*Defined in [Integration/Security/LoginFromAnotherCountryTest](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php) in line [162](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Login/tests/Integration/Security/LoginFromAnotherCountryTest.php#L162)*
 
 
 
