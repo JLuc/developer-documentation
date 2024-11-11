@@ -121,6 +121,7 @@ public function aggregate(ArchiveProcessor $archiveProcessor): array
 
     return [
         'MyPlugin_myRecord' => $report,
+        'MyPlugin_myMetric' => $report->getRowsCount(),
     ];
 }
 ```
