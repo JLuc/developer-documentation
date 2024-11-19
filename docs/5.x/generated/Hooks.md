@@ -1734,7 +1734,7 @@ Callback Signature:
 
 ### Login.authenticate
 
-*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [57](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L57)*
+*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [58](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L58)*
 
 
 
@@ -1754,7 +1754,7 @@ Callback Signature:
 
 ### Login.authenticate.failed
 
-*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [36](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L36)*
+*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [37](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L37)*
 
 
 
@@ -1978,7 +1978,7 @@ Usages:
 
 ### Login.authenticate.successful
 
-*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [40](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L40)*
+*Defined in [Piwik/Session/SessionInitializer](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php) in line [41](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Session/SessionInitializer.php#L41)*
 
 
 
