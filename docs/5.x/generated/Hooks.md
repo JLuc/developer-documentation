@@ -910,7 +910,7 @@ Callback Signature:
 
 ### Config.NoConfigurationFile
 
-*Defined in [Piwik/Application/Kernel/EnvironmentValidator](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Application/Kernel/EnvironmentValidator.php) in line [111](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Application/Kernel/EnvironmentValidator.php#L111)*
+*Defined in [Piwik/Application/Kernel/EnvironmentValidator](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Application/Kernel/EnvironmentValidator.php) in line [116](https://github.com/matomo-org/matomo/blob/5.x-dev/core/Application/Kernel/EnvironmentValidator.php#L116)*
 
 Triggered when the configuration file cannot be found or read, which usually
 means Piwik is not installed yet. This event can be used to start the installation process or to display a custom error message.
@@ -1548,7 +1548,7 @@ Usages:
 
 ### Installation.defaultSettingsForm.init
 
-*Defined in [Piwik/Plugins/Installation/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php) in line [437](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php#L437)*
+*Defined in [Piwik/Plugins/Installation/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php) in line [443](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php#L443)*
 
 Triggered on initialization of the form to customize default Matomo settings (at the end of the installation process).
 
@@ -1564,7 +1564,7 @@ Usages:
 
 ### Installation.defaultSettingsForm.submit
 
-*Defined in [Piwik/Plugins/Installation/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php) in line [448](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php#L448)*
+*Defined in [Piwik/Plugins/Installation/Controller](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php) in line [454](https://github.com/matomo-org/matomo/blob/5.x-dev/plugins/Installation/Controller.php#L454)*
 
 Triggered on submission of the form to customize default Matomo settings (at the end of the installation process).
 
